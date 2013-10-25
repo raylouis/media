@@ -1,0 +1,27 @@
+# See http://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/
+
+# Normalize line endings for files that are considered text files by Git
+*           text=auto
+
+# Those files are text files: normalize line endings and enable diffs
+*.css       text
+*.sass      text
+*.scss      text
+*.dist      text
+*.htaccess  text
+*.html      text        diff=html
+*.js        text
+*.json      text
+*.less      text
+*.php       text        diff=php
+*.twig      text
+*.txt       text
+*.xml       text
+*.yml       text
+*.yml.dist  text
+
+# The following files are binary: end of line normalization and diffs should be disabled
+*.png       binary
+*.jpg       binary
+*.gif       binary
+*.ico       binary
