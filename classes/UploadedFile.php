@@ -11,7 +11,6 @@
 class UploadedFile extends File
 {
     private $filename = '';
-    private $error;
     private $mime_type = '';
 
     /**
@@ -24,19 +23,14 @@ class UploadedFile extends File
         if (is_array($file)) {
             $this->filename     = $file['name'];
             $this->location     = $file['tmp_name'];
-            $this->error        = $file['error'];
             $this->mime_type    = $file['type'];
+        } else {
+            throw new Exception('$file must be an array');
         }
-    }
 
-    /**
-     * Returns the error code.
-     * 
-     * @return  integer         The error code (0 if no errors)
-     */
-    public function getError()
-    {
-        return $this->error;
+        if ($file['error'] !== UPLOAD_ERR_OK) {
+            throw new UploadException($file['error']);
+        }
     }
 
     /**
@@ -76,15 +70,6 @@ class UploadedFile extends File
         return $this->mime_type;
     }
 
-    /**
-     * Returns wether or not the uploaded file contains errors.
-     * @return  boolean                         TRUE if errors, FALSE if no errors
-     */
-    public function hasErrors()
-    {
-        return (bool) $this->error;
-    }
-
 
     /**
      * Moves the uploaded file from it's temporary location to permanent location.
@@ -97,13 +82,9 @@ class UploadedFile extends File
      */
     public function move($location)
     {
-        if (!$this->hasErrors()) {
-            if (move_uploaded_file($this->location, $location)) {
-                $this->location = $location;
-                return true;
-            } else {
-                return false;
-            }
+        if (move_uploaded_file($this->location, $location)) {
+            $this->location = $location;
+            return true;
         } else {
             return false;
         }
