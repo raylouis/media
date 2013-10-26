@@ -1,0 +1,125 @@
+/**
+ * Media
+ * 
+ * The Media plugin is a third-party plugin for Wolf CMS that provides an easy way to upload files and resize images.
+ * 
+ * @package     Plugins
+ * @subpackage  media
+ * 
+ * @author      Nic Wortel <nic.wortel@nth-root.nl>
+ * @copyright   Nic Wortel, 2013
+ * @version     0.1.0
+ */
+
+body#body_plugin_media {
+
+    div#content {
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            background-color: #e6e6e6;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+
+        th, td {
+            padding: 2px 4px;
+            text-align: left;
+        }
+
+        td.label {
+            width: 180px;
+            text-align: right;
+        }
+
+        th a {
+            padding-right: 11px;
+        }
+        th.sorted.ascending a {
+            background-image:url('images/sort_up.png');
+            background-repeat:no-repeat;
+            background-position: right center;
+        }
+        th.sorted.descending a {
+            background-image:url('images/sort_down.png');
+            background-repeat:no-repeat;
+            background-position: right center;
+        }
+
+        th, td {
+            &.number {
+                width: 50px;
+                text-align: right;
+
+                &.long {
+                    width: 70px;
+                }
+            }
+
+            &.price {
+                width: 80px;
+                text-align: right;    
+            }
+
+            &.icon {
+                width: 60px;
+                vertical-align: middle;
+                text-align: center;    
+            }
+
+            &.thumbnail {
+                width: 60px;
+            }
+        }
+
+        td .not-applicable {
+            color: #bbb;
+        }
+
+        input.number {
+            text-align: right;
+        }
+
+        textarea {
+            width: 100% !important;
+            min-height: 200px;
+        }
+
+        span.actions {
+            visibility: hidden;
+        }
+
+        tr:hover span.actions {
+            visibility: visible;
+        }
+
+    }
+
+    div#sidebar {
+        p.status-success {
+            color: #009800;
+        }
+
+        p.status-failure {
+            color: #e11d21;
+        }
+    }
+
+}
