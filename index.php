@@ -11,7 +11,7 @@ if (!defined('IN_CMS')) { exit(); }
  * 
  * @author      Nic Wortel <nic.wortel@nth-root.nl>
  * @copyright   Nic Wortel, 2013
- * @version     0.1.0
+ * @version     0.2.0
  */
 
 if (!defined('MEDIA')) {
@@ -33,7 +33,7 @@ Plugin::setInfos(array(
     'description'           =>    __('Provides an easy way to upload files and resize images.'),
     'type'                  =>    'both',
     'author'                =>    'Nic Wortel',
-    'version'               =>    '0.1.0',
+    'version'               =>    '0.2.0',
     'website'               =>    'http://www.wolfcms.org/',
     'require_wolf_version'  =>    '0.7.4'
 ));
