@@ -155,7 +155,7 @@ class Attachment extends ActiveRecord
 
     public static function create($uploaded_file, $title = null)
     {
-        if ($uploaded_file instanceOf UploadedFile && !$uploaded_file->hasErrors()) {
+        if ($uploaded_file instanceOf UploadedFile) {
             if (is_null($title) || trim($title) == '') {
                 $title = $uploaded_file->getFilename(true);
             }
