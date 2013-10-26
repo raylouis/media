@@ -33,6 +33,12 @@ if (!defined('IN_CMS')) { exit(); }
         <?php echo __('Clear cache'); ?>
     </a>
 </p>
+<p class="button">
+    <a href="<?php echo get_url("plugin/media/documentation"); ?>">
+        <img width="32" height="32" src="<?php echo MEDIA_IMAGES; ?>documentation-32.png" align="middle" alt="<?php echo __('Documentation'); ?>" />
+        <?php echo __('Documentation'); ?>
+    </a>
+</p>
 
 <?php if (isset($attachment)): ?>
 <div class="box">

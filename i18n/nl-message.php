@@ -66,5 +66,16 @@ return array(
     'File upload successful!' => 'Bestandsupload succesvol!',
     'File upload failed.' => 'Bestandsupload is mislukt.',
     'Please select a file to upload.' => 'Upload a.u.b. een bestand.',
-    'The uploaded file exceeds the maximum file size.' => 'Het geüploade bestand overschrijdt de maximum bestandsgrootte.'
+    'The uploaded file exceeds the maximum file size.' => 'Het geüploade bestand overschrijdt de maximum bestandsgrootte.',
+    'Documentation' => 'Documentatie',
+    "The Media plugin is a third-party plugin for Wolf CMS. The idea is based on Wordpress' Media Library. The Media plugin provides an easy way to upload files. It also provides some hooks for plugins that need to upload images and/or resize them." => "De Media plug-in is een plug-in voor Wolf CMS. Het idee is gebaseerd op de Mediabibliotheek van Wordpress. De Media plug-in biedt een eenvoudige manier om bestanden te uploaden en afbeeldingen te verkleinen.",
+    'Post-installation instructions' => 'Na de installatie',
+    "The plugin saves uploaded files inside the 'public' folder in a folder called 'media_uploads'. Make sure the folder exists and your web server has the appropriate rights to write new files into it." => "De plug-in slaat bestanden na het uploaden op in een map met de naam 'media_uploads', in de 'public' map. Verzeker u ervan dat de map bestaat en dat de webserver voldoende rechten heeft om er bestanden in op te slaan.",
+    "Resized images are saved in a folder named 'cache' inside the 'media_uploads' folder. Again, make sure it exists and your web server has the appropriate rights to write into it." => "Afbeeldingen die verkleind zijn worden opgeslagen in een map met de naam 'cache', binnen de 'media_uploads' map. Verzeker uzelf ook hier ervan dat de map bestaat en dat de webserver voldoende rechten heeft om erin te schrijven.",
+    'The Status-box in the sidebar will display green status messages if everything is good to go. If there are things that have to be fixed, instructions will be displayed in red.' => 'De Status-box in de zijbalk toont groene statusberichten als alles in orde is. Als er problemen moeten worden opgelost, worden er instructies getoond in het rood.',
+    'Contributing' => 'Bijdragen',
+    'Do you want to contribute to the development of the Media plugin?' => 'Wilt u bijdragen aan de ontwikkeling van de Media plug-in?',
+    'You can report bugs and submit patches at the :github_link.' => 'U kunt bugs melden en verbeteringen indienen in de :github_link.',
+    'GitHub repository' => 'GitHub repository',
+    'You can translate the plugin into your language using :transifex_link.' => 'U kunt de plug-in vertalen naar uw taal met behulp van :transifex_link.',
 );

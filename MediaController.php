@@ -60,6 +60,11 @@ class MediaController extends PluginController
 
         redirect(get_url('plugin/media'));
     }
+
+    public function documentation()
+    {
+        $this->display('media/views/documentation/index');
+    }
     
     public function edit($id)
     {

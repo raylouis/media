@@ -66,5 +66,16 @@ return array(
     'File upload successful!' => 'File upload successful!',
     'File upload failed.' => 'File upload failed.',
     'Please select a file to upload.' => 'Please select a file to upload.',
-    'The uploaded file exceeds the maximum file size.' => 'The uploaded file exceeds the maximum file size.'
+    'The uploaded file exceeds the maximum file size.' => 'The uploaded file exceeds the maximum file size.',
+    'Documentation' => 'Documentation',
+    "The Media plugin is a third-party plugin for Wolf CMS. The idea is based on Wordpress' Media Library. The Media plugin provides an easy way to upload files. It also provides some hooks for plugins that need to upload images and/or resize them." => "The Media plugin is a third-party plugin for Wolf CMS. The idea is based on Wordpress' Media Library. The Media plugin provides an easy way to upload files. It also provides some hooks for plugins that need to upload images and/or resize them.",
+    'Post-installation instructions' => 'Post-installation instructions',
+    "The plugin saves uploaded files inside the 'public' folder in a folder called 'media_uploads'. Make sure the folder exists and your web server has the appropriate rights to write new files into it." => "The plugin saves uploaded files inside the 'public' folder in a folder called 'media_uploads'. Make sure the folder exists and your web server has the appropriate rights to write new files into it.",
+    "Resized images are saved in a folder named 'cache' inside the 'media_uploads' folder. Again, make sure it exists and your web server has the appropriate rights to write into it." => "Resized images are saved in a folder named 'cache' inside the 'media_uploads' folder. Again, make sure it exists and your web server has the appropriate rights to write into it.",
+    'The Status-box in the sidebar will display green status messages if everything is good to go. If there are things that have to be fixed, instructions will be displayed in red.' => 'The Status-box in the sidebar will display green status messages if everything is good to go. If there are things that have to be fixed, instructions will be displayed in red.',
+    'Contributing' => 'Contributing',
+    'Do you want to contribute to the development of the Media plugin?' => 'Do you want to contribute to the development of the Media plugin?',
+    'You can report bugs and submit patches at the :github_link.' => 'You can report bugs and submit patches at the :github_link.',
+    'GitHub repository' => 'GitHub repository',
+    'You can translate the plugin into your language using :transifex_link.' => 'You can translate the plugin into your language using :transifex_link.',
 );
