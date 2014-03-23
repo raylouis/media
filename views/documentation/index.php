@@ -32,9 +32,9 @@ if (!defined('IN_CMS')) { exit(); }
 <p><?php echo __('Do you want to contribute to the development of the Media plugin?'); ?></p>
 
 <p><?php echo __('You can report bugs and submit patches at the :github_link.', array(
-    ':github_link' => '<a href="https://github.com/nicwortel/wolfcms-media" target="_blank">' . __('GitHub repository') . '</a>'
+    ':github_link' => '<a href="https://github.com/wolf-pack/media" target="_blank">' . __('GitHub repository') . '</a>'
 )); ?></p>
 
 <p><?php echo __('You can translate the plugin into your language using :transifex_link.', array(
-    ':transifex_link' => '<a href="https://www.transifex.com/projects/p/wolfcms-form-plugin/" target="_blank">Transifex.com</a>'
+    ':transifex_link' => '<a href="https://www.transifex.com/projects/p/wolfpack-media/" target="_blank">Transifex.com</a>'
 )); ?></p>

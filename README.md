@@ -31,6 +31,6 @@ If you're not sure wether both folders are existing and writable, open the 'Medi
 Contributing
 ------------
 
-Would you like to help developing this plugin? Or would you like to submit a bug report or feature request? The [GitHub repository](https://github.com/nicwortel/wolfcms-media) is the right place for this.
+Would you like to help developing this plugin? Or would you like to submit a bug report or feature request? The [GitHub repository](https://github.com/wolf-pack/media) is the right place for this.
 
-If you would like to submit a translation, head over to [Transifex.com](https://www.transifex.com/projects/p/wolfcms-media-plugin/) and submit a request to create a new language team (or to join an existing one).
+If you would like to submit a translation, head over to [Transifex.com](https://www.transifex.com/projects/p/wolfpack-media/) and submit a request to create a new language team (or to join an existing one).

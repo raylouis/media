@@ -65,5 +65,4 @@ if (!defined('IN_CMS')) { exit(); }
 <div class="box">
     <h2><?php echo __('Media plugin'); ?></h2>
     <p><?php echo __('The Media plugin is a third-party plugin for Wolf CMS that provides an easy way to upload files and resize images.'); ?></p>
-    <p><?php echo __('Created by :name', array(':name' => 'Nic Wortel')); ?></p>
 </div>

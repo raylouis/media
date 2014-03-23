@@ -53,7 +53,6 @@ return array(
     'Upload' => 'Upload',
     'or' => 'or',
     'Cancel' => 'Cancel',
-    'Created by :name' => 'Created by :name',
     'Tip: you can select multiple files at the same time.' => 'Tip: you can select multiple files at the same time.',
     'Status' => 'Status',
     "Upload directory does not exist. Create a directory called 'media_uploads' in your public folder." => "Upload directory does not exist. Create a directory called 'media_uploads' in your public folder.",

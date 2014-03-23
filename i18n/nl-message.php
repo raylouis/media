@@ -53,7 +53,6 @@ return array(
     'Upload' => 'Uploaden',
     'or' => 'of',
     'Cancel' => 'Annuleer',
-    'Created by :name' => 'Ontwikkeld door :name',
     'Tip: you can select multiple files at the same time.' => 'Tip: u kunt meerdere bestanden tegelijk selecteren.',
     'Status' => 'Status',
     "Upload directory does not exist. Create a directory called 'media_uploads' in your public folder." => "De upload-map bestaat niet. Maak een nieuwe map aan met de naam 'media_uploads' in uw 'public' map.",
