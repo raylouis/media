@@ -15,12 +15,12 @@ Requirements
 * PHP 5.3 or higher
 * MySQL
 * Wolf CMS 0.7.5 or higher
-* The [ActiveRecord helper](https://github.com/nicwortel/wolfcms-ActiveRecord)
+* The [ActiveRecord helper](https://github.com/wolf-pack/ActiveRecord)
 
 Installation instructions
 -------------------------
 
-1. Download the [ActiveRecord helper](https://github.com/nicwortel/wolfcms-ActiveRecord) and put it in *CMS_ROOT/wolf/helpers/ActiveRecord.php*.
+1. Download the [ActiveRecord helper](https://github.com/wolf-pack/ActiveRecord) and put it in *CMS_ROOT/wolf/helpers/ActiveRecord.php*.
 2. Next, place the media plugin folder in the plugins directory (*CMS_ROOT/wolf/plugins*). **Important**: make sure the plugin folder is called 'media', not 'wolfcms-media' or anything else.
 3. In the backend of Wolf CMS, open the 'Administration' tab and enable the Media plugin by checking the checkbox.
 4. The plugin saves uploaded files inside the 'public' folder in a folder called 'media_uploads'. Make sure the folder exists and your web server has the appropriate rights to write new files into it.
